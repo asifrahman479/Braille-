@@ -4,19 +4,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-.header a{
-  text-align: center;
-  padding:20px, 10 px;
-  font-size: 18 px;
-  border-radius: 4px;
-  line-height: 50px;
-}
-
 .navigation ul {
   margin: 0;
   padding: 0;
@@ -27,7 +14,6 @@ body {
   font-weight: 100;
   letter-spacing: 2px;
   padding: 20px;
-  display: inline-block;
 }
 
 .navigation  li.logo {
@@ -45,15 +31,20 @@ body {
 } */
 img{
   width: 100%;
-  height: 100%
   margin: auto;
   border: solid black 1px;
+
+
 }
 
 
 #main {
   margin: auto;
-  text-align: center;  
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
 }
 
 h1 {
@@ -64,6 +55,7 @@ h1 {
 }
 
 h2 {
+  border: 1px dotted red;
   color: red;
   font-size: 14px;
   line-height: 48px;
@@ -87,6 +79,10 @@ p {
   padding: 10px 20px;
 }
 
+.pull-quote {
+  margin: 0 auto;
+  width: 400px;
+}
 
 .byline {
   border-bottom: 1px solid LightGrey;
@@ -120,12 +116,3 @@ p {
   border: 1px solid red;
   color: red;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-

@@ -4,6 +4,9 @@
   <title>Braille</title>
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <meta charset="UTF-8">
 
   	<script type="text/javascript">
@@ -16,48 +19,57 @@
   		document.pointform.form_x.value = pos_x;
   		document.pointform.form_y.value = pos_y;
   	}
-
-
     </script>
     </head>
+
   <body>
-  <nav class="navigation">
-    <ul>
-      <li> IDEA </li>
-      <li class="logo">lOGO</li>
-      <li class="donate">DONATE</li>
-    </ul>
-  </nav>
+  <div class="header">
+  		<h1><b>Braille</b></h1>
+  		
+  		<nav class="navigation">
+    		<ul>
+      			<li><a href="index.html">Home</a></li>
+      			<li><a href="#main">About Us</a></li>
+      			<li><a href="#footer">Contact</a></li>
+      			<li>Sign up/Log in</a></li>
+    		</ul>
+  		</nav>
+  </div>
+  	
 
   <div id="banner">
-
-
     <div class="content">
-      <h1>Point around this image to see what the app does </h1>
+      <h2>Point around this image to see what the app does </h2>
     </div>
   </div>
 
   <form name="pointform" method="post">
-  <div id="pointer_div" onclick="point_it(event)" >
-    <img src = "boston.jpg" id = "cross" style="width: 100%; margin: auto"; class = "center";>
-  You pointed on x = <input type="text" name="form_x" size="4" /> - y = <input type="text" name="form_y" size="4" />
-    </form>
+  <div id="pointer_div" onclick="point_it(event)"; >
+    <img src = "boston.jpg" id = "cross" ; >
+    <p align ="center">You pointed on x = <input type="text" name="form_x" size="4" /> - y = <input type="text" name="form_y" size="4"</p>
+    </div>
+  </form>
+  
+  <div id="main" class="content">
+      <h3><font color="red">What is Braille? </font> </h3>
+      <span class="byline">Created by: Kunal, Asif, Vignesh & Abi </span>
+      <p align="center"> We just wanted to create an application dedicated to help the blind. Why not have a tool that aids them with navigation? Our application allows users to take pictures of their surrounding and intelligently detect and recognize the objects infront of them. Our application uses available AI tools to convert recognized objects from a text name into verbal commands. </p>
 
-    <div id="main" class="content">
-      <h3>What is braille? </h3>
-      <span class="byline">Created by: Kunal and Vignesh </span>
-      <p> We just wanted to create an application dedicated to help the blind. Why not have a tool that aids them with navigation? Our application allows users to
-      take pictures of their surrounding and intelligently detect and recognize the objects infront of them. Our application uses available AI tools to convert recognized objects
-      from a text name into verbal commands. </p>
-
-      <div class="pull-quote">
-        <h2>"Our technology helps people see with their ears"</h2>
-      </div>
+  </div>
 
     <div class="share">
-      <a href="#">SHARE</a>
-      <a href="#">FAVORITE</a>
-      <a href="#">READ</a>
+      <p align="center">Download the latest Braille</p>
+      <a href="#">Download</a>
+    </div>
+
+   <div id="footer" class="footer">
+   		<nav class ="navigation">
+    		<ul>
+    			<li> <a href = "https://github.com/asifrahman479/Braille-"; >Github</a></li>
+    			<li> <a href="https://dashboard.hackumass.com/">Hack Umass </li>
+    		</ul>
+    	</nav>
+   			
     </div>
 
   </body>
